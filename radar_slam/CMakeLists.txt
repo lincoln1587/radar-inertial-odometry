@@ -4,7 +4,7 @@ project(radar_slam)
 set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_CXX_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -Wall -g -pthread")
-# set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR})
 find_package(Boost REQUIRED COMPONENTS timer)
 
 
